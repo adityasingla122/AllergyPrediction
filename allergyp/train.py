@@ -8,8 +8,9 @@ from imblearn.over_sampling import SMOTE
 import time
 
 # --- Configuration ---
-CSV_FILE_PATH = 'merged_data.csv'  # <--- REPLACE WITH YOUR CSV FILE PATH
-TARGET_LB_COLUMN = 'LBDIG2LC'  # <--- REPLACE WITH THE SPECIFIC LB COLUMN
+CSV_FILE_PATH = 'merged_data.csv'
+TARGET_LB_COLUMN = 'LBDIG5LC'
+# TARGET_LB_COLUMN = 'LBDIG2LC'
 MCQ_COLUMNS = ["MCQ160C", "MCQ010", "MCQ050", "MCQ092", "MCQ140"]
 MCQ_MISSING_VALUE_REPLACEMENT = 4 # Value to replace NaNs in MCQ columns
 RANDOM_SEED = 42
