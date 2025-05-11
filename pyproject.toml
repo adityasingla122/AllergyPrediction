@@ -1,0 +1,23 @@
+[project]
+name = "allergyp"
+version = "0.1.0"
+description = "A Python package for allergy data processing and analysis"
+authors = [
+    {name = "Your Name", email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "scikit-learn>=1.2.0",
+    "pytest>=7.3.1",
+    "xgboost (>=3.0.0,<4.0.0)",
+    "imbalanced-learn (>=0.13.0,<0.14.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
